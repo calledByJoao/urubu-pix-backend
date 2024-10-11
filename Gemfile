@@ -9,3 +9,4 @@ gem 'sinatra-activerecord'
 gem 'sqlite3'
 gem 'rake'
 gem 'dotenv'
+gem "rackup", "~> 2.1"

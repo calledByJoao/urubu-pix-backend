@@ -36,6 +36,9 @@ GEM
       rack (>= 3.0.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
     rake (13.2.1)
     ruby2_keywords (0.0.5)
     securerandom (0.3.1)
@@ -62,6 +65,7 @@ GEM
     timeout (0.4.1)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    webrick (1.8.2)
 
 PLATFORMS
   aarch64-linux-gnu
@@ -77,6 +81,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  rackup (~> 2.1)
   rake
   sinatra
   sinatra-activerecord
